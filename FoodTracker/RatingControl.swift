@@ -54,7 +54,7 @@ class RatingControl: UIView {
         }
     }
     
-    func createButton(emptyStarImage: UIImage, filledStarImage: UIImage) {
+    func createButton() {
         let button = UIButton()
         
         let emptyStarImage  = UIImage(named: "emptyStar")!
