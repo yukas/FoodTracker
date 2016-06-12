@@ -13,6 +13,7 @@
 		935DF5011D0B29A800C83B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935DF5001D0B29A800C83B3A /* Assets.xcassets */; };
 		935DF5041D0B29A800C83B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935DF5021D0B29A800C83B3A /* LaunchScreen.storyboard */; };
 		935DF50F1D0B29A800C83B3A /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DF50E1D0B29A800C83B3A /* FoodTrackerTests.swift */; };
+		935DF51C1D0C81B300C83B3A /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DF51B1D0C81B300C83B3A /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		935DF50A1D0B29A800C83B3A /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935DF50E1D0B29A800C83B3A /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		935DF5101D0B29A800C83B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935DF51B1D0C81B300C83B3A /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				935DF4F91D0B29A800C83B3A /* AppDelegate.swift */,
 				935DF4FB1D0B29A800C83B3A /* ViewController.swift */,
 				935DF4FD1D0B29A800C83B3A /* Main.storyboard */,
+				935DF51B1D0C81B300C83B3A /* RatingControl.swift */,
 				935DF5001D0B29A800C83B3A /* Assets.xcassets */,
 				935DF5021D0B29A800C83B3A /* LaunchScreen.storyboard */,
 				935DF5051D0B29A800C83B3A /* Info.plist */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				935DF4FC1D0B29A800C83B3A /* ViewController.swift in Sources */,
+				935DF51C1D0C81B300C83B3A /* RatingControl.swift in Sources */,
 				935DF4FA1D0B29A800C83B3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
