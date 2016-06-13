@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		935DF4FA1D0B29A800C83B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DF4F91D0B29A800C83B3A /* AppDelegate.swift */; };
-		935DF4FC1D0B29A800C83B3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DF4FB1D0B29A800C83B3A /* ViewController.swift */; };
+		935DF4FC1D0B29A800C83B3A /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DF4FB1D0B29A800C83B3A /* MealViewController.swift */; };
 		935DF4FF1D0B29A800C83B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935DF4FD1D0B29A800C83B3A /* Main.storyboard */; };
 		935DF5011D0B29A800C83B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935DF5001D0B29A800C83B3A /* Assets.xcassets */; };
 		935DF5041D0B29A800C83B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935DF5021D0B29A800C83B3A /* LaunchScreen.storyboard */; };
 		935DF50F1D0B29A800C83B3A /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DF50E1D0B29A800C83B3A /* FoodTrackerTests.swift */; };
 		935DF51C1D0C81B300C83B3A /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DF51B1D0C81B300C83B3A /* RatingControl.swift */; };
+		935DF51E1D0E172F00C83B3A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DF51D1D0E172F00C83B3A /* Meal.swift */; };
+		935DF5201D0EC65C00C83B3A /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DF51F1D0EC65C00C83B3A /* MealTableViewCell.swift */; };
+		935DF5221D0ED31C00C83B3A /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5211D0ED31C00C83B3A /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +32,7 @@
 /* Begin PBXFileReference section */
 		935DF4F61D0B29A800C83B3A /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		935DF4F91D0B29A800C83B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		935DF4FB1D0B29A800C83B3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		935DF4FB1D0B29A800C83B3A /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		935DF4FE1D0B29A800C83B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		935DF5001D0B29A800C83B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		935DF5031D0B29A800C83B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		935DF50E1D0B29A800C83B3A /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		935DF5101D0B29A800C83B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935DF51B1D0C81B300C83B3A /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		935DF51D1D0E172F00C83B3A /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		935DF51F1D0EC65C00C83B3A /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		935DF5211D0ED31C00C83B3A /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				935DF4F91D0B29A800C83B3A /* AppDelegate.swift */,
-				935DF4FB1D0B29A800C83B3A /* ViewController.swift */,
+				935DF4FB1D0B29A800C83B3A /* MealViewController.swift */,
 				935DF4FD1D0B29A800C83B3A /* Main.storyboard */,
+				935DF5211D0ED31C00C83B3A /* MealTableViewController.swift */,
+				935DF51F1D0EC65C00C83B3A /* MealTableViewCell.swift */,
 				935DF51B1D0C81B300C83B3A /* RatingControl.swift */,
+				935DF51D1D0E172F00C83B3A /* Meal.swift */,
 				935DF5001D0B29A800C83B3A /* Assets.xcassets */,
 				935DF5021D0B29A800C83B3A /* LaunchScreen.storyboard */,
 				935DF5051D0B29A800C83B3A /* Info.plist */,
@@ -200,9 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				935DF4FC1D0B29A800C83B3A /* ViewController.swift in Sources */,
+				935DF51E1D0E172F00C83B3A /* Meal.swift in Sources */,
+				935DF4FC1D0B29A800C83B3A /* MealViewController.swift in Sources */,
 				935DF51C1D0C81B300C83B3A /* RatingControl.swift in Sources */,
 				935DF4FA1D0B29A800C83B3A /* AppDelegate.swift in Sources */,
+				935DF5221D0ED31C00C83B3A /* MealTableViewController.swift in Sources */,
+				935DF5201D0EC65C00C83B3A /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +406,7 @@
 				935DF5151D0B29A800C83B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		935DF5161D0B29A800C83B3A /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +415,7 @@
 				935DF5181D0B29A800C83B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
